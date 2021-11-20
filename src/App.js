@@ -1,8 +1,12 @@
+import Layout from "./componentents/Layout";
+import Home from "./componentents/Pages/Home";
+import "./styles/App.css";
+
 function App() {
   return (
-    <div className="App">
-      <h2>Quiz Keltay ni?</h2>
-    </div>
+    <Layout>
+      <Home></Home>
+    </Layout>
   );
 }
 
