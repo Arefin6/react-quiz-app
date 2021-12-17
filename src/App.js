@@ -1,12 +1,13 @@
 import Layout from "./componentents/Layout";
-import SignUp from "./componentents/Pages/SignUp";
+import Table from "./componentents/Pages/Table";
 import "./styles/App.css";
 
 function App() {
   return (
     <Layout>
       {/* <Home></Home> */}
-      <SignUp></SignUp>
+      {/* <SignUp></SignUp> */}
+      <Table></Table>
     </Layout>
   );
 }
