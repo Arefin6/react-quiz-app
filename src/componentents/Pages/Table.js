@@ -3,6 +3,7 @@ import TableComp from './TableComp';
 
 const Table = () => {
     const [data,setData] = useState([]);
+    
     useEffect(()=>{
         fetch('https://jsonplaceholder.typicode.com/comments')
         .then(response => response.json())
