@@ -25,7 +25,7 @@ const Login = () => {
           icon="lock" />
 
           
-          <Button>Submit Now</Button>
+          <Button><span>Submit Now</span></Button>
 
           <div className="info">
             Don't Have an account? <a href="/">SignUp</a> instead.
