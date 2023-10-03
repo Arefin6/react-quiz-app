@@ -1,10 +1,10 @@
 import React from "react";
-import Videos from "../Videos";
+import Videos from "../components/Videos";
 
 const Home = () => {
   return (
     <div>
-      <Videos></Videos>
+      <Videos/>
     </div>
   );
 };
