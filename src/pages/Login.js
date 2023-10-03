@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from "../../styles/Signup.module.css";
-import Button from '../Butoon';
-import Form from '../Form';
-import Illustration from '../Illustration';
-import TextInput from '../TextInput';
+import Button from '../components/Button';
+import Form from '../components/Form';
+import Illustration from "../components/Illustration";
+import TextInput from '../components/TextInput';
 
 const Login = () => {
     return (

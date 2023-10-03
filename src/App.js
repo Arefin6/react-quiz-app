@@ -1,6 +1,6 @@
 // import Login from "./componentents/Pages/Login";
- import Layout from "./componentents/Layout";
-import Quiz from "./componentents/Pages/Quiz";
+import Layout from "./components/Layout";
+import Quiz from "./pages/Quiz";
 import "./styles/App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <Layout>
       {/* <Home></Home> */}
       {/* <SignUp></SignUp>   */}
-      <Quiz></Quiz>
+      <Quiz/>
       {/* <Login></Login> */}
     </Layout>
   );

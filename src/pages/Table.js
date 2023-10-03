@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import TableComp from './TableComp';
-
 const Table = () => {
     const [data,setData] = useState([]);
     
